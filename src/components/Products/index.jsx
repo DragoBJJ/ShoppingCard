@@ -13,7 +13,7 @@ const Products = ({ products }) => {
     <Wrapper>
       <ProductsData>
         {products &&
-          products.products.map(item => {
+          products.map(item => {
             return (
               <li key={item.id}>
                 <Product>

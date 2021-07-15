@@ -12,46 +12,46 @@ export const productsData = [
     image: dress1,
     description: "about dress 1",
     price: 19,
-    availableSize: ["XL", "XXl"]
+    availableSize: ["XL", "M"]
   },
   {
     id: "dress2",
     title: "Midi sundress with shirring detail",
     image: dress2,
     description: "about dress 1",
-    price: 19,
-    availableSize: ["XL", "XXl"]
+    price: 20,
+    availableSize: ["XXl"]
   },
   {
     id: "dress3",
     title: "Midi sundress with shirring detail",
     image: dress3,
     description: "about dress 1",
-    price: 19,
-    availableSize: ["XL", "XXl"]
+    price: 3,
+    availableSize: ["L"]
   },
   {
     id: "dress4",
     title: "Midi sundress with shirring detail",
     image: dress4,
     description: "about dress 1",
-    price: 19,
-    availableSize: ["XL", "XXl"]
+    price: 55,
+    availableSize: ["M"]
   },
   {
     id: "dress5",
     title: "Midi sundress with shirring detail",
     image: dress5,
     description: "about dress 1",
-    price: 19,
-    availableSize: ["XL", "XXl"]
+    price: 75,
+    availableSize: ["S"]
   },
   {
     id: "dress6",
     title: "Midi sundress with shirring detail",
     image: dress6,
     description: "about dress 1",
-    price: 19,
-    availableSize: ["XL", "XXl"]
+    price: 126,
+    availableSize: ["XS"]
   }
 ];
