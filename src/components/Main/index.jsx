@@ -1,8 +1,18 @@
 import React from "react";
-import { Container } from "./style";
+import { Container, Content, ProductsContainer, SideBar } from "./style";
+import Products from "../Products";
 
-const Main = () => {
-  return <Container></Container>;
+const Main = ({ products }) => {
+  return (
+    <Container>
+      <Content>
+        <ProductsContainer>
+          <Products products={products} />
+        </ProductsContainer>
+        <SideBar>CardItem</SideBar>
+      </Content>
+    </Container>
+  );
 };
 
 export default Main;
